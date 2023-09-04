@@ -15,31 +15,26 @@
                 <h2>Email:</h2>
                 <p>info@greatcliffs.com</p>    
                 <h2>Fill Out This Form: </h2>             
-                <form action="/contact" method="post">
+                <form action="/signup" method="post">
                     <fieldset>
-                        <legend>Contact Form:</legend>
-                        <label>Enter your full name</label><br>
-                        <input type="text" name="full_name"><br>
+                        <legend>Account Creation Information:</legend>
+                        <label>Enter your First Name</label><br>
+                        <input type="text" name="first_name"><br>
+                        <label>Enter your Last Name</label><br>
+                        <input type="text" name="last_name"><br>
                         <label>Enter your email</label><br>
                         <input type="email" name="email"><br>
-                        <label>Enter your phone</label><br>
-                        <input type="text" name="phone"><br>
+                        <label>Enter your password</label><br>
+                        <input type="password" name="password"><br>
+                        <label>Confirm your password</label><br>
+                        <input type="password" name="confirm password"><br>
                         <br>
-                        <label>How should we contact you?</label><br>
-                        <input type="radio" name="contact_method" value="email">Email<br>
-                        <input type="radio" name="contact_method" value="phone">Phone<br>
+                        <label>Your Gender</label><br>
+                        <input type="radio" name="gender" value="male">Male<br>
+                        <input type="radio" name="gender" value="femaile">Female<br>
+                        <input type="radio" name="gender" value="other">Other<br>
                         <br>
-                        <label>Which Cliff are you inquiring?</label><br>
-                        <select name="cliff">
-                            <option>West Cliff</option>
-                            <option>North Cliff</option>
-                            <option>East Cliff</option>
-                            <option>South Cliff</option>
-                        </select><br>
-                        <br>
-                        <label>How did you hear about us:</label><br>
-                        <textarea rows="5" columns="40"></textarea><br>
-                        <input type="submit" value="Inquire"><br>
+                        <input type="submit" value="Sign Up"><br>
                     </fieldset>
                 </form>
             </main>
